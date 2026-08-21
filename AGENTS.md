@@ -12,3 +12,18 @@
 | ----------- | -------- | ----------------------------------------------------------------------------- |
 | `README.md` | 主页正文 | 顶部横幅位以 HTML 注释整段停用；启用前需先放好 `assets/banner-{light,dark}.png` |
 | `assets/`   | 横幅图   | 设计宽 1200px，实图按 2x 导出 2400px；light / dark 两版由 `<picture>` 切换      |
+| `docs/agents/` | agent 配置 | issue tracker / triage 标签 / 领域文档消费规则；由 `/setup-matt-pocock-skills` 生成 |
+
+## Agent skills
+
+### Issue tracker
+
+GitHub Issues on `davidfuzju/davidfuzju`（`gh` CLI）。See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+五个规范角色，label 字符串与角色同名（默认值）。See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+Single-context：根 `CONTEXT.md` + `docs/adr/`。See `docs/agents/domain.md`.
