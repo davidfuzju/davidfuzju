@@ -4,4 +4,4 @@
 
 ### David FU
 
-Building at **Tokendivers** — AI 与互联网技术服务。
+Building at **Tokendivers**
