@@ -1,0 +1,3 @@
+{
+  "claudeMdExcludes": ["**/vendor/*/**/CLAUDE.md"]
+}
