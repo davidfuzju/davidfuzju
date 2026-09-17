@@ -4,13 +4,13 @@
 即个人主页正文。
 
 - **项目类型**：custom（内容仓，无构建、无 CI、无依赖）
-- **工作区形态**：单仓项目（形态 A）。`~/Workspaces/tokendivers/projects/github-profile`
-  是指向本仓的软链；领域文档真身若有则直接落本仓，**不做注入**
-- **搜索层**：qmd collection `github-profile`（qmd 不跟软链，工作区那条 collection 覆盖不到本仓）
+- **工作区形态**：项目仓，嵌套 clone 于 `~/Workspaces/tokendivers/projects/github-profile`，
+  外层工作区 `.gitignore` 以 `tokendivers/projects/*/` 覆盖；领域文档真身直接落本仓
+- **搜索层**：并入工作区 qmd collection `tokendivers`
 
 | 路径        | 用途     | 备注                                                                          |
 | ----------- | -------- | ----------------------------------------------------------------------------- |
-| `README.md` | 主页正文 | 顶部放横幅 `assets/banner.png`，单图，不分明暗主题 |
+| `README.md` | 主页正文 | 横幅 `assets/banner.png`，单图，不分明暗主题 |
 | `assets/`   | 横幅图   | `banner.png`（2400×840）+ `banner.svg`，均由 `banner.py` 生成，勿手改 |
 | `banner.py` | 横幅生成器 | `python3 banner.py`，依赖 `rsvg-convert`；设计语汇见 `CONTEXT.md` |
 | `CONTEXT.md` | 领域语汇 | 横幅立意、术语、呈现规格与已知的坑 |
