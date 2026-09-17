@@ -10,8 +10,10 @@
 
 | 路径        | 用途     | 备注                                                                          |
 | ----------- | -------- | ----------------------------------------------------------------------------- |
-| `README.md` | 主页正文 | 顶部横幅位以 HTML 注释整段停用；启用前需先放好 `assets/banner-{light,dark}.png` |
-| `assets/`   | 横幅图   | 设计宽 1200px，实图按 2x 导出 2400px；light / dark 两版由 `<picture>` 切换      |
+| `README.md` | 主页正文 | 顶部放横幅 `assets/banner.png`，单图，不分明暗主题 |
+| `assets/`   | 横幅图   | `banner.png`（2400×840）+ `banner.svg`，均由 `banner.py` 生成，勿手改 |
+| `banner.py` | 横幅生成器 | `python3 banner.py`，依赖 `rsvg-convert`；设计语汇见 `CONTEXT.md` |
+| `CONTEXT.md` | 领域语汇 | 横幅立意、术语、呈现规格与已知的坑 |
 | `docs/agents/` | agent 配置 | issue tracker / triage 标签 / 领域文档消费规则；由 `/setup-matt-pocock-skills` 生成 |
 
 ## Agent skills
