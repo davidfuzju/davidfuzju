@@ -12,8 +12,8 @@
 | ----------- | -------- | ----------------------------------------------------------------------------- |
 | `README.md` | 主页正文 | 横幅 `assets/banner.png`，单图，不分明暗主题 |
 | `assets/`   | 横幅图   | `banner.png`（2400×840）+ `banner.svg`，均由 `banner.py` 生成，勿手改 |
-| `banner.py` | 横幅生成器 | `python3 banner.py`，依赖 `rsvg-convert`；设计语汇见 `CONTEXT.md` |
-| `CONTEXT.md` | 领域语汇 | 横幅立意、术语、呈现规格与已知的坑 |
+| `banner.py` | 横幅生成器 | `python3 banner.py`，依赖 `rsvg-convert`；设计语汇见 `GLOSSARY.md` |
+| `GLOSSARY.md` | 领域语汇 | 横幅立意、术语、呈现规格与已知的坑 |
 | `docs/agents/` | agent 配置 | issue tracker / triage 标签 / 领域文档消费规则；由 `/setup-matt-pocock-skills` 生成 |
 
 ## Agent skills
@@ -28,4 +28,4 @@ GitHub Issues on `davidfuzju/davidfuzju`（`gh` CLI）。See `docs/agents/issue-
 
 ### Domain docs
 
-Single-context：根 `CONTEXT.md` + `docs/adr/`。See `docs/agents/domain.md`.
+Single-context：根 `GLOSSARY.md` + `docs/adr/`。See `docs/agents/domain.md`.
