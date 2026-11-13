@@ -6,7 +6,7 @@ I'm David, founder of **Tokendivers** in Shanghai. We help companies become **AI
 frontier models we build plugins, skills and cloud services around the workflows teams already run, so AI
 becomes part of how the work gets done instead of a side tool.
 
-Before Tokendivers I built at scale at **Trip.com (Ctrip)** and **Sephora**, moved at startup speed at
+Before Tokendivers I built at scale at **Trip.com (Ctrip)** and **SEPHORA**, moved at startup speed at
 unicorn **HARMAY**, and spent time building a **blockchain** startup. I've been shipping software since 2013.
 
 ## Open source & side projects
