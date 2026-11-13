@@ -12,11 +12,6 @@ Shipping software since 2013.
 
 | | |
 | --- | --- |
-| [**Drawer**](https://davidfuzju.github.io/drawer/) | Any macOS app as a hotkey drawer from the screen edge · Accessibility API, Sparkle updates |
 | [**WeChat Duo**](https://github.com/davidfuzju/wechat-duo) | A second WeChat on macOS that repairs itself after updates · Swift menu bar app |
 | [**skills-presets**](https://github.com/davidfuzju/skills-presets) | Your own defaults on third-party Claude Code skills, no fork · hook-layer plugin |
 | [**tw-mod-zhcn**](https://github.com/davidfuzju/tw-mod-zhcn) | Simplified Chinese module for Tortoise-WoW servers |
-
-Earlier iOS open source: [SMBCustomRelationshipSegue](https://github.com/davidfuzju/SMBCustomRelationshipSegue) ·
-[SMBFetchedResultsController](https://github.com/davidfuzju/SMBFetchedResultsController) ·
-[FMTDebugger](https://github.com/davidfuzju/FMTDebugger)
