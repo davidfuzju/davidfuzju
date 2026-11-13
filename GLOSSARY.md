@@ -97,4 +97,4 @@
 
 ## 未决
 
-- 主页元数据中的 bio / blog（暂留空）；pinned 现为 drawer / skills-presets / wechat-duo / tw-mod-zhcn / SMBCustomRelationshipSegue，与 README「Things I've built」对齐
+- 主页元数据中的 bio / blog（暂留空）；pinned 现为 wechat-duo / skills-presets / tw-mod-zhcn，与 README「Projects」对齐
