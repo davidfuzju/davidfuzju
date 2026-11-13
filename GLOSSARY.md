@@ -97,4 +97,4 @@
 
 ## 未决
 
-- 主页元数据中的 bio / blog（暂留空）；pinned 现为 drawer / skills-presets / wechat-duo / omarchy-macbookpro14-3 / tw-mod-zhcn / SMBCustomRelationshipSegue，与 README「Things I've built」对齐
+- 主页元数据中的 bio / blog（暂留空）；pinned 现为 drawer / skills-presets / wechat-duo / tw-mod-zhcn / SMBCustomRelationshipSegue，与 README「Things I've built」对齐
